@@ -11,9 +11,10 @@
 
 <body>
 
-  <header>
+  <header class="main-header">
 
     <h1>Amy Potter</h1>
+    <h2>Software Developer in Training</h2>
 
   </header>
 
@@ -21,24 +22,59 @@
 
     <nav>
 
-      <a href="/about/">About</a>
-      <a href="/lang/">Languages</a>
-      <a href="/portfolio/">Portfolio<a>
-      <a href="/resume/">Resume</a>
-      <a href="/contact/">Contact</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio<a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
 
-      </nav>
+    </nav>
 
   </div>
 
   <main>
-    <section class="about">
-      <h1>About</h1>
-        
+    <section class="card">
+      <h2 id="about">About</h2>
+      <div>
+        <img class="about-image" src="./assets/images/300x200png.png" alt="placeholder image" />
+      </div>
+      <p1>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa voluptatibus tempore neque maxime recusandae a
+        adipisci sint esse vero, quis hic natus quasi? Voluptas sed qui maiores eos iste tempora!
+      </p1>
 
     </section>
 
+    <section class="card-portfolio">
+      <h2 id="portfolio">Portfolio</h2>
+     <div>
+      <img class="portfolio-lg" src="./assets/images/300x200png.png" alt="placeholder image" />
+      <img class="portfolio-sm" src="./assets/images/200x200.svg" alt="placeholder image" />
+      <img class="portfolio-sm" src="./assets/images/200x200.svg" alt="placeholder image" />
+      <img class="portfolio-sm" src="./assets/images/200x200.svg" alt="placeholder image" />
+      
+     </div> 
+    </section>
 
+    <section class="card">
+      <h2 id="resume">Resume</h2>
+      <p1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellat similique asperiores qui? Cum
+        magni eligendi minima, incidunt reprehenderit nam eaque magnam aliquid officiis exercitationem molestiae odit
+        nihil, sequi ea?
+      </p1>
+    </section>
+
+    <section class="card">
+      <h2 id="contact">Contact</h2>
+      <div>
+        <h3>Email</h3>
+        <a href="mailto:admin@example.com">admin@example.com</a>
+        <h3>Phone</h3>
+        <a href="tel:9999999999">999-999-9999</a>
+        <h3>GitHub</h3>
+        <a href="https://github.com/potte463/">Click Here</a>
+      </div>
+    </section>
 
 
 

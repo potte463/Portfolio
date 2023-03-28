@@ -1,11 +1,51 @@
 * {
-background-color: aquamarine;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: monospace;
+
+}
+main {
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  padding: 30px;
+  background-color: wheat;
+  
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: #1c4229; 
+  color: wheat;
+  border: 10px solid wheat;
 }
 h1 {
-  font-size: 75px;
+  font-size: 60px;
 }
 .nav {
   display: flex;
   justify-content: right;
+}
+.card-portfolio {
+display: flex;
+flex-wrap: wrap;
+flex-grow: 2;
+border: 2px solid #1c4229; 
+}
+.card {
+  display: flex;
+flex-wrap: wrap;
+flex-grow: 1;
+border: 2px solid #1c4229; 
+}
+.portfolio-lg {
+
+}
+.portfolio-sm {
+
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
 }
