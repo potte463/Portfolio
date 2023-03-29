@@ -1,0 +1,132 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+
+}
+
+main {
+
+  padding: 30px;
+  background-color: wheat;
+
+
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: #1c4229;
+  color: wheat;
+  border: 10px solid wheat;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.nav {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1c4229;
+  display: flex;
+  justify-content: right;
+}
+
+.card-portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  border: 2px solid #1c4229;
+  padding: 10px
+}
+
+.card {
+  border: 2px solid #1c4229;
+  padding: 10px
+}
+
+.about-me {
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.about-image {
+  flex-shrink: 3;
+  margin: 10px;
+}
+
+.portfolio-lg {
+  width: 100%;
+
+}
+
+.portfolio-sm {
+  width: 32.5%;
+
+
+
+}
+
+.contact {
+  
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a:link {
+  color: #1c4229;
+}
+
+
+a:visited {
+  color: rgb(24, 31, 24);
+}
+
+a:hover {
+  color: rgb(95, 177, 95);
+}
+
+@media screen and (max-width: 992px) {
+
+  .card card-portfolio {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .card card-portfolio about-me {
+    flex-direction: column;
+    width: 50%;
+  }
+  .about-me {
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .card card-portfolio  {
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-me {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
