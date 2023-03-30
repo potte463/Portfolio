@@ -114,7 +114,7 @@ a:hover {
   }
   .about-me {
     flex-direction: column;
-    width: 50%;
+    width: 100%;
   }
 }
 
