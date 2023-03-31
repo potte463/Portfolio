@@ -55,12 +55,17 @@ h2 {
 .about-me {
   display: flex ;
   flex-direction: row;
+  gap: 1rem;
   justify-content: center;
-  flex-grow: 1;
+}
+
+.about-me p {
+  width: 30%;
 }
 
 .about-image {
-  flex-shrink: 3;
+  /* flex-shrink: 3; */
+  width: 70%;
   margin: 10px;
 }
 
@@ -105,13 +110,20 @@ a:hover {
 
 @media screen and (max-width: 768px) {
 
-  .card card-portfolio about-me {
+  .card-portfolio {
     flex-direction: column;
-    width: 50%;
+  
   }
   .about-me {
     flex-direction: column;
     width: 100%;
+  }
+
+  .about-me p {
+    width: 100%;
+  }
+  .portfolio-sm {
+    width 50%
   }
 }
 
@@ -121,9 +133,16 @@ a:hover {
     flex-direction: column;
     width: 100%;
   }
+
   .about-me {
     flex-direction: column;
     width: 100%;
   }
 
+  .about-me p {
+    width: 100%;
+  }
+  .portfolio-sm {
+    width 100%
+  }
 }
